@@ -145,8 +145,11 @@ model.fit(X, y)
 # =========================
 # UI
 # =========================
-st.title("🚢 Titanic Survival Prediction App")
 st.markdown('<div class="card">', unsafe_allow_html=True)
+st.subheader("📊 Model Accuracy")
+st.write(f"**Cross-validation accuracy:** `{cv_scores.mean():.4f}`")
+st.markdown('</div>', unsafe_allow_html=True)
+
 # User Form
 st.markdown('<div class="card">', unsafe_allow_html=True)
 st.subheader("🧍 Passenger Information")
