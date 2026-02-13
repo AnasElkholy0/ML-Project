@@ -145,8 +145,9 @@ model.fit(X, y)
 # =========================
 # UI
 # =========================
+
+st.title("🚢 Titanic Survival Prediction App")
 st.markdown('<div class="card">', unsafe_allow_html=True)
-st.markdown('</div>', unsafe_allow_html=True)
 
 # User Form
 st.markdown('<div class="card">', unsafe_allow_html=True)
