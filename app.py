@@ -149,8 +149,6 @@ model.fit(X, y)
 st.title("🚢 Titanic Survival Prediction App")
 st.markdown('<div class="card">', unsafe_allow_html=True)
 
-# User Form
-st.markdown('<div class="card">', unsafe_allow_html=True)
 st.subheader("🧍 Passenger Information")
 
 Pclass = st.selectbox("Class", [1, 2, 3])
