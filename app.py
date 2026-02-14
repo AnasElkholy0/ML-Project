@@ -150,6 +150,8 @@ cv_scores = cross_val_score(model, X_train, y_train, cv=skf, scoring='accuracy')
 
 print("CV Scores:", cv_scores)
 print("Mean accuracy:", cv_scores.mean())
+model.fit(X_train, y_train)
+
 
 
 # =========================
